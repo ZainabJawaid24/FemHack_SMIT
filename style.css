@@ -24,11 +24,16 @@ body{
     display: flex;
 }
 .nav-links li{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .nav-links a{
     color: #333;
     text-decoration: none;
+}
+.nav-links a:hover{
+    text-decoration: none;
+    color: #28CB8B;
+    cursor: pointer;
 }
 .menu-icon{
     display: none;
@@ -42,15 +47,22 @@ div.buttons{
 button.btn1{
     border: none;
     border-radius: 6px;
-    color: rgb(43, 211, 43);
+    color: #28CB8B;
     padding: 10px;
 }
 button.btn2{
-    background-color: rgb(43, 211, 43);
+    background-color: #28CB8B;
     color: white;
     padding: 10px;
     border-radius: 6px;
     border: none;
+}
+.home{
+    background-color: #dadde2;
+    height: 350px;
+    padding: 13px;
+    margin-left: 10px;
+    margin-right: 15px;
 }
 .header1 img{
     margin-left: 800px;
@@ -69,23 +81,25 @@ button.btn2{
     color: #504c4c;
 }
 .header2 .line2{
-    color: rgb(43, 211, 43);
+    color: #28CB8B;
     font-size: 50px;
 }
 button.btn3{
     margin-top: 30px;
     padding: 15px;
     color: white;
-    background-color: rgb(43, 211, 43);
+    background-color: #28CB8B;
     border-radius: 6px;
     border: none;
+    width: 100px;
+    font-size: 17px;
 }
-.ourclient h1{
+.features h1{
     color: #504c4c;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
-.ourclient p{
+.features p{
     color: #504c4c;
     text-align: center;
     margin-top: 20px;
@@ -98,52 +112,55 @@ button.btn3{
     margin-left: 50px;
 }
 .logos .logo2{
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .logos .logo3{
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .logos .logo4{
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .logos .logo5{
-    margin-left: 150px;
+    margin-left: 130px;
 }
 .logos .logo6{
-    margin-left:150px;
+    margin-left:130px;
 }
 .logos .logo7{
-    margin-left: 150px;
+    margin-left: 130px;
 }
-.features{
+.community{
     line-height: 1.4;
     margin-top: 40px;
 }
-.features h1{
+.community h1{
     text-align: center;
     color: #504c4c;
 }
-.features p{
+.community p{
     text-align: center;
     color: #504c4c;
 }
-.features .img{
+.community .img{
     margin-top: 20px;
     margin-left: 400px;
     gap: 30px;
 }
-.features .img img.card1{
-    gap: 50px;
+.community .img img.card1{
+    box-shadow: 3px 3px 3px;
+    border-radius: 10px;
 }
-.features .img img.card2{
-    gap: 50px;
+.community .img img.card2{
+    box-shadow: 3px 3px 3px;
+    border-radius: 10px;
 }
-.features .img img.card3{
-    gap: 50px;
+.community .img img.card3{
+    box-shadow: 3px 3px 3px;
+    border-radius: 10px;
 } 
 .div{
-    margin-left: 630px;
-    margin-top: 90px;
+    margin-left: 600px;
+    margin-top: -400px;
     line-height: 1.2;
 }
 .div h1{
@@ -151,5 +168,112 @@ button.btn3{
 }
 .div-img{
     margin-left: 60px;
-    margin-top: -250px;
+    margin-top: -30px;
+}
+.pricing{
+    height: 180px;
+    margin-top: 180px;
+    background-color: #dadde2;
+    padding: 13px;
+    line-height: 1.2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pricing h1{
+    margin-left: 60px;
+    color: #504c4c;
+    font-weight: bold;
+}
+.pricing h1.line4{
+    color: #28CB8B;
+    font-weight: bold;
+}
+.pricing p{
+    color: #504c4c;
+    margin-left: 60px;
+    margin-top: 16px;
+}
+.pricing .price{
+    margin-left: 420px;
+}
+.pricing .price .div1{
+    margin-left: 330px;
+    margin-top: -115px;
+}
+.pricing .price .div2{
+    margin-left: 330px;
+    margin-top: 20px;
+}
+.pricing .price .pr4{
+    margin-right: 50px;
+}
+.pricing1{
+    height: 180px;
+    margin-top: 4px;
+    background-color: #dadde2;
+    padding: 13px;
+    line-height: 1.2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pricing1 h1{
+    margin-left: 60px;
+    color: #263238;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+.pricing1 .btn4{
+    background-color: #28CB8B;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px;
+    margin-left: 610px;
+    margin-top: 20px;
+}
+.footer{
+    height: 250px;
+    background-color: #263238;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer footer img{
+    width: 130px;
+    margin-top: 50px;
+}
+footer .div1{
+    margin-left: 120px;
+    line-height: 1.2;
+}
+footer .div1 p{
+    margin-top: 20px;
+}
+.footer .img{
+    width: 40px;
+    margin-top: 30px;
+}
+.footer .div2{
+    margin-left: 500px;
+    margin-top: -180px;
+    line-height: 1.7;
+}
+.footer .div3{
+    margin-left: 690px;
+    margin-top: -177px;
+    line-height: 1.7;
+}
+.footer .div4{
+    margin-left: 890px;
+    margin-top: -130px;
+    line-height: 1.8;
+}
+.footer .div4 input{
+    padding: 7px;
+    background-color: rgb(158, 155, 155);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
 }
