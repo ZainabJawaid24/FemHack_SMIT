@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    background-color: white;
+    color: #333;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    margin-left: 40px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    color: #333;
+    text-decoration: none;
+}
+.menu-icon{
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+div.buttons{
+    margin-right: 180px;
+}
+button.btn1{
+    border: none;
+    border-radius: 6px;
+    color: rgb(43, 211, 43);
+    padding: 10px;
+}
+button.btn2{
+    background-color: rgb(43, 211, 43);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.header1 img{
+    margin-left: 800px;
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header2{
+    margin-top: -280px;
+    margin-left: 100px;
+    line-height: 1.4;
+}
+.header2 h1.line1{
+    font-weight: bold;
+    font-size: 50px;
+    color: #504c4c;
+}
+.header2 .line2{
+    color: rgb(43, 211, 43);
+    font-size: 50px;
+}
+button.btn3{
+    margin-top: 30px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(43, 211, 43);
+    border-radius: 6px;
+    border: none;
+}
+.ourclient h1{
+    color: #504c4c;
+    text-align: center;
+    margin-top: 100px;
+}
+.ourclient p{
+    color: #504c4c;
+    text-align: center;
+    margin-top: 20px;
+}
+.logos{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.logos .logo1{
+    margin-left: 50px;
+}
+.logos .logo2{
+    margin-left: 150px;
+}
+.logos .logo3{
+    margin-left: 150px;
+}
+.logos .logo4{
+    margin-left: 150px;
+}
+.logos .logo5{
+    margin-left: 150px;
+}
+.logos .logo6{
+    margin-left:150px;
+}
+.logos .logo7{
+    margin-left: 150px;
+}
+.features{
+    line-height: 1.4;
+    margin-top: 40px;
+}
+.features h1{
+    text-align: center;
+    color: #504c4c;
+}
+.features p{
+    text-align: center;
+    color: #504c4c;
+}
+.features .img{
+    margin-top: 20px;
+    margin-left: 400px;
+    gap: 30px;
+}
+.features .img img.card1{
+    gap: 50px;
+}
+.features .img img.card2{
+    gap: 50px;
+}
+.features .img img.card3{
+    gap: 50px;
+} 
+.div{
+    margin-left: 630px;
+    margin-top: 90px;
+    line-height: 1.2;
+}
+.div h1{
+    color: #504c4c;
+}
+.div-img{
+    margin-left: 60px;
+    margin-top: -250px;
+}
